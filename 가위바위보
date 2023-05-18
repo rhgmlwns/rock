@@ -22,8 +22,8 @@ def rsp_winner(a, b):
 import random
 n = random.randint(1, 3)
 you = input("가위바위보 게임입니다. 무엇을 낼지 입력해 주세요.: ")
-print("사용자:", you)
-print("컴퓨터:", rsp_num_name(n))
+print("나:", you)
+print("상대:", rsp_num_name(n))
 w = rsp_winner(rsp_name_num(you), n)
 if w == 0:
     print("비겼습니다.")
